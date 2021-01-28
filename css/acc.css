@@ -1,0 +1,28 @@
+/* #accordeon {
+	width: 350px;
+	border: 10px solid #fff;
+	box-shadow: 0 0 10px grey;
+	margin: 10px;
+} */
+
+.acc-head {
+	display:flex;
+	justify-content: space-between;
+	padding-top: 28px;
+    padding-bottom: 30px;
+    border-top: 1px solid #cacaca;
+}
+
+.acc-body {
+width: 57%;
+
+font-size: 14px;
+color:#333333;
+display: none;
+}
+.p-acc-body{
+	margin-bottom: 20px;
+}
+.nnn{
+	width: 0px !important;
+}
