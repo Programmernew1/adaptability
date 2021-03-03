@@ -36,3 +36,19 @@ document.querySelectorAll('span.swiper-pagination-bullet').forEach (function(ff)
 document.querySelectorAll('span.swiper-pagination-bullet').forEach(function(ff2){
 ff2.style.background='white'
 });
+
+var a = document.querySelector(".swiper-button-prev");
+a.setAttribute('aria-label',' предыдущий слайд');
+
+var b = document.querySelector(".swiper-button-next");
+b.setAttribute('aria-label','следующий слайд');
+
+let element = document.querySelector('.swiper-wraper');
+element.setAttribute('aria-hidden','true');
+
+let element = document.querySelector('.s');
+element.setAttribute('aria-hidden','true');
+
+
+
+
